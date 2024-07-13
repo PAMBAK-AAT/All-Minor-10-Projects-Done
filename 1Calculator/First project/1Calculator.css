@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to bottom left , #f1a2d3,#7dd2cf);
+}
+.container{
+    height:90%;
+    width:70%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 8px 8px 20px #f2f2f2;
+}
+.input{
+    width: 95%;
+    padding:20px;
+    margin: 10px;
+    border:none;
+    text-align: right;
+    font-size: 36px;
+    background: transparent;
+    box-shadow: 4px 4px 15px #e4d8d8;
+}
+.input::placeholder{
+    color: #fff;
+}
+
+.row{
+    display:flex;
+    margin-block: 8px;
+    font-size:20px;
+}
+
+.row button{
+    flex-basis: 100%;
+}
+
+.button{
+    outline:none;
+    border:none;
+}
+
+button{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: transparent;
+    /* border: none; */
+    box-shadow: -4px -6px 5px #e3dee3;
+    color:rgb(54, 52, 52);
+    cursor: pointer;
+}
+
+button:active{
+    font-size: 25px;
+}
+
+button:hover{
+    box-shadow: 0 0 0;
+}
+
+.btnEqual{
+    color: orangered;
+    font-size: 30px;
+}
+
+.answer{
+    color:rgb(182, 54, 96);
+}
+
+.operators{
+    color: blue;
+}
+
